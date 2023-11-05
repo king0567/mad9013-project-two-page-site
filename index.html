@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Co.</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <a href="./" class="navbar__logo">
+                <img src="images/logo-ac.svg" alt="Adventure Co. Logo" class="navbar__icon">
+            </a>
+            <nav class="navbar__nav">
+                <ul class="navbar__list">
+                    <li class="navbar__list__item"><a href="#" class="navbar__link">About</a></li>
+                    <li class="navbar__list__item"><a href="#" class="navbar__link">Blog</a></li>
+                    <li class="navbar__list__item"><a href="#" class="navbar__link">Download</a></li>
+                    <li class="navbar__list__item"><a href="#" class="navbar__link">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+
+        <header class="banner" style="--banner-image: linear-gradient(to bottom, #0009, #0009), url('../images/hero-banner.jpg')">
+            <div class="container">
+                <div class="banner__content">
+                    <h1 class="banner__title">Welcome to Adventure Co!</h1>
+                    <p class="banner__text">An app built for adventurers seeking fame, fortune, and a well organized gameplay experience!</p>
+                    <a href="#" class="btn btn--secondary btn--large">Download the app!</a>
+                </div>
+            </div>
+        </header>
+
+        <section class="card-group">
+            <div class="container">
+                <ul class="card-group__cards">
+                    <li class="card-group__card">
+                        <a href="#" class="card">
+                            <div class="card__img">
+                                <img src="images/card-character.svg" alt="Character Icon"/>
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Create a character!</h3>
+                                <p class="card__text">Get started with your very first character.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="card-group__card">
+                        <a href="#" class="card">
+                            <div class="card__img">
+                                <img src="images/card-party.svg" alt="Party Icon"/>
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Form a party!</h3>
+                                <p class="card__text">Connect with friends and team up.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="card-group__card">
+                        <a href="#" class="card">
+                            <div class="card__img">
+                                <img src="images/card-items.svg" alt="Items Icon"/>
+                            </div>
+                            <div class="card__content">
+                                <h3 class="card__title">Find an item!</h3>
+                                <p class="card__text">Add fantastic items too boost your character.</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="container">
+                    <div class="about__image">
+                        <img src="./images/about.jpg" alt="Knights on horseback">
+                    </div>
+                    <div class="about__content">
+                        <h2 class="about__title">About Adventure Co.</h2>
+                        <p class="about__text">Adventure Co. is a cooperative storytelling companion for D&D that uses your imagination and invites you to adventure, battle, discover, and complete epic quests with your friends through an immersive RPG experience. Your first adventure is only a dice roll away!</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+            </div>
+        </section>
+
+        <section class="card-group blog-post">
+            <div class="container">
+                <h2 class="card-group__title blog-post-group__title">Recent Blog Posts</h2>
+                <ul class="card-group__cards blog-post-group__cards">
+                    <li class="card-group__card blog-post-group__card">
+                        <a href="./blog-post.html" class="card blog-post__card">
+                            <div class="card__content blog-post__content">
+                                <h3 class="card__title blog-post__title">One-Shot Adventures: What They Are, Why We Love Them, and Recommendations</h3>
+                                <p class="card__text blog-post__text">By Mike Bernier</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="card-group__card blog-post-group__card">
+                        <a href="#" class="card">
+                            <div class="card__content blog-post__content">
+                                <h3 class="card__title blog-post__title">5 Tips for Running the Death House One-Shot From Curse of Strahd</h3>
+                                <p class="card__text blog-post__text">by Jeremy Blum</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="card-group__card blog-post-group__card">
+                        <a href="#" class="card">
+                            <div class="card__content blog-post__content">
+                                <h3 class="card__title blog-post__title">How to Mashup D&D Sourcebooks for Versatile Storytelling</h3>
+                                <p class="card__text blog-post__text">by Riley Silverman</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <a href="./" class="footer__logo">
+                <img src="images/logo-ac.svg" alt="Adventure Co. Logo" class="footer__icon">
+            </a>
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li><a href="#" class="footer__link">About</a></li>
+                    <li><a href="#" class="footer__link">Blog</a></li>
+                    <li><a href="#" class="footer__link">Download</a></li>
+                    <li><a href="#" class="footer__link">Sign Up</a></li>
+                </ul>
+            </nav>
+            <small class="footer__legal">
+                &copy; 2022 Adventure Co-Operative
+                <ul class="footer__legal_list">
+                    <li><a href="#" class="footer__legal_link">Privacy Policy</a></li>
+                    <li><a href="#" class="footer__legal_link">Terms of Service</a></li>
+                </ul>
+                
+            </small>
+        </div>
+    </footer>
+
+</body>
+
+</html>
