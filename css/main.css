@@ -809,6 +809,7 @@ box-shadow: -0.3rem 0rem 0 0rem var(--color__primary_light);
   max-width: 20rem;
   justify-self: center;
   opacity: 80%;
+  max-width: 15rem;
 }
 
 .article__tips{
@@ -826,6 +827,7 @@ box-shadow: -0.3rem 0rem 0 0rem var(--color__primary_light);
   max-width: 20rem;
   justify-self: center;
   opacity: 80%;
+  max-width: 15rem;
 }
 
 .article__our-favorite{
@@ -843,6 +845,7 @@ box-shadow: -0.3rem 0rem 0 0rem var(--color__primary_light);
   max-width: 20rem;
   justify-self: center;
   opacity: 80%;
+  max-width: 15rem;
 }
 
 .article__footer{
