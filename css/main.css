@@ -885,7 +885,7 @@ box-shadow: -0.3rem 0rem 0 0rem var(--color__primary_light);
     border: 0.3rem solid var(--color__secondary_lightest);
   }
   
-  .article__tips .container{
+  .article__intro .container{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
