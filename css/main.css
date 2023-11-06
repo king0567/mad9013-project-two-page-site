@@ -795,6 +795,7 @@ box-shadow: -0.3rem 0rem 0 0rem var(--color__primary_light);
 .article__why-one-shot{
   margin-top: 1.5rem;
   padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   margin-bottom: 1.5rem;
   border-top: 0.3rem solid var(--color__secondary_lightest);
   border-bottom: 0.3rem solid var(--color__secondary_lightest);
