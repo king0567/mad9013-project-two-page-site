@@ -162,6 +162,12 @@ select {
 /*------- Type Hierarchy -------------*/
 
 html{
+  /* ---------- prof comment ----------
+  
+  no need to create a new html ruleset,
+  just update these styles in the CSS Reset!
+  
+  ---------- end prof comment ---------- */
   font-family: var(--font-family__main);
   font-weight: 400;
   line-height: 1.5;

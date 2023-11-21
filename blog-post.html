@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- prof comment
+    title should unique from other pages and describe the content of the page.
+    For example: "One-Shot Adventures | Adventure Co-Op"
+    -->
     <title>Adventure Co.</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,6 +34,9 @@
     
     <main id="main">
 
+        <!-- prof comment
+        All blog content should be in a single <article> starting here
+        -->
         <header 
             class="banner banner__blog-post" 
             style="--banner-image: linear-gradient(to bottom, #0009, #0000), url('../images/blog-image-adventurers.jpg')"
@@ -56,6 +63,13 @@
                     </div>
                 </div>
                 <div class="article__intro">
+                    <!-- prof comment
+                        The <div class="container"> below is not necessary.
+                        There is already a <div class="container"> in the ancestry
+                        that is sizing things properly. Including it here is just
+                        adding an unneeded extra div. Apply any styles you put on
+                        it to the parent <div class="article__intro"> element
+                    -->
                     <div class="container">
                         <p class="article__text">Introduction.</p>
                         <p class="article__text">One-shots are snack-sized adventures that allow you to get right into the action of Dungeons & Dragons without the baggage that comes with an extended campaign. In addition, the self-contained nature of one-shots enables players and Dungeon Masters to more easily experiment with the breadth of options D&D provides without commitment. Maybe you want to play as a party of meme characters, complete with janky multiclassing shenanigans? Or perhaps your DM wants to try their hardest to brutally kill the characters one by one? Whatever avenue you're looking to explore with your one-shot, it can make for a fun night of gaming!</p>
@@ -76,6 +90,10 @@
                         <img src="./images/651448fa-9f31-4bc1-97de-8f975b9c4453_pixelied-beast.svg" alt="goblin with knife">
                     </div>
                     <div class="article__why-one-shot_content">
+                        <!-- prof comment
+                          see above comment in "article__intro"
+                          about extra unneeded container
+                        -->
                         <div class="container">
                             <p class="article__text">page 1.</p>
                             <h2 class="article__title">Why We Love One-Shots</h2>
@@ -100,6 +118,10 @@
                         <img src="./images/1d13573d-66ce-473b-9bb3-7e1eac98e6ef_pixelied-beast.svg" alt="dwarf with axe">
                     </div>
                     <div class="article__tips_content">
+                        <!-- prof comment
+                          see above comment in "article__intro"
+                          about extra unneeded container
+                        -->
                         <div class="container">
                             <p class="article__text">page 2.</p>
                             <h2 class="article__title">Tips for Running One-Shots</h2>
@@ -123,6 +145,10 @@
                         <img src="./images/b06c89db-f980-4897-8aa5-129161c22149_pixelied-monster.svg" alt="imp with crossbow">
                     </div>
                     <div class="article__our-favorite_content">
+                        <!-- prof comment
+                          see above comment in "article__intro"
+                          about extra unneeded container
+                        -->
                         <div class="container">
                             <p class="article__text">page 3.</p>
                             <h2 class="article__title">Our Favorite One-Shots</h2>
@@ -136,6 +162,9 @@
                         </div>
                     </div>
                 </div>
+                <!-- prof comment
+                  as your class suggests, this should be a <footer> for the article
+                -->
                 <div class="article__footer">
                     <p class="article__text">
                         Mike Bernier (<a href="https://twitter.com/arcane_eye" class="article__link">@arcane_eye</a>) is the founder of <a href="https://arcaneeye.com/" class="article__link">Arcane Eye</a>, a site focused on providing useful tips and tricks to all those involved in the world of D&D. Outside of writing for Arcane Eye, Mike spends most of his time playing games, hiking with his girlfriend, and tending the veritable jungle of houseplants that have invaded his house.
@@ -143,6 +172,10 @@
                 </div>
             </div>
         </section>
+
+        <!-- prof comment
+          close </article> here
+        -->
 
         <section class="card-group blog-post">
             <div class="container">
